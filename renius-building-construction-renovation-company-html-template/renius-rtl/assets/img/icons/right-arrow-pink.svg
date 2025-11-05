@@ -1,0 +1,7 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 12" width="16" height="12">
+	<title>right-arrow-pink</title>
+	<style>
+		.s0 { fill: #f5a29c } 
+	</style>
+	<path class="s0" d="m0.9 7c-0.3-0.3-0.3-0.8 0-1.1l4.8-4.8c0.3-0.3 0.8-0.3 1.1 0 0.2 0.3 0.2 0.8 0 1.1l-4.3 4.2 4.3 4.3c0.2 0.3 0.2 0.7 0 1-0.3 0.3-0.8 0.3-1.1 0zm14.1-0.5v0.8h-13.6v-0.8-0.7h13.6z"/>
+</svg>

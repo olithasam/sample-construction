@@ -2126,6 +2126,9 @@ body {
 .about-area.style-three {
   border-radius: 0 0 45px 45px;
 }
+.about-area.style-four {
+  border-radius: 0 0 0 0;
+}
 .about-area.style-three:before {
   position: absolute;
   top: 0;
@@ -2671,6 +2674,27 @@ body {
 /*-------------------------------
     Service Section CSS
 -------------------------------*/
+
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .feature-card {
+        min-height: 280px !important;
+    }
+}
+
 .service-area.style-one {
   border-radius: 45px;
 }

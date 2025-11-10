@@ -279,7 +279,15 @@
 	});
 
     //Testimonial Slider
+    
     var testimonial_sliderOne = new Swiper(".testimonial-slider-one", {
+
+        autoplay: {
+        delay: 3000,                  // 3 seconds
+        disableOnInteraction: false,  // Makes it restart after a user clicks
+        pauseOnMouseEnter: true,      // This pauses the slider if a user hovers over it
+    },
+
 		loop: true,
 		speed: 1500,
 		spaceBetween: 25,
